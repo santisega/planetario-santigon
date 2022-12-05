@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid white;
+
+}
+.titulo {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.astronauta {
+    margin-top: 20px;
+    height: 90px;
+    padding-left: 30px;
+    margin-right: 850px;
+}
+.link {
+    margin-left: 20px;
+}
+.item a{
+    color: white;
+    position: right;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.items {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    float: right;
+}
+.container{
+    display: flex;
+}
+
+.link:focus{
+    color:white;
+}
+
+.containerTitulo{
+    display: flex;
+    margin-left: 100px;
+}
+
+.listContainer{
+    margin:70px auto 10px 0;
+}

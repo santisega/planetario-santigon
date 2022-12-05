@@ -1,0 +1,45 @@
+.titulo2{
+    text-align: center;
+    color: yellow;
+    font-size: 60px;
+}
+.container{
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 130px 120px 130px 350px;
+}
+
+.parrafo{
+    color: white;
+    align-items: center;
+}
+
+.rocketContainer{
+    margin:auto auto 200px 280px;
+}
+
+.astronautContainer{
+    text-align: center;
+}
+.astronautContainer h1{
+    color: yellow;
+    font-size: 50px;
+}
+.astronautContainer p{
+    font-size: 25px;
+    margin: 0 450px 0;
+}
+.astronautContainer img{
+    float: right;
+    position: absolute;
+    margin: -200px auto 0 400px;
+}

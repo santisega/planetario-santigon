@@ -1,0 +1,21 @@
+.headerGaleria {
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    font-size: 100px;
+}
+.fotos {
+    text-align: center;
+    font-size: 90px;
+}
+.containerGaleria img{
+    float: right;
+    position: absolute;
+    margin: -200px auto 0 700px;
+}
+.planeta img {
+    float: left;
+    position: absolute;
+    margin: -200px auto 0 700px;
+}

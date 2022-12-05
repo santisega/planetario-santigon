@@ -1,0 +1,58 @@
+.containerDiv{
+    margin-top: 100px;
+    align-items: center;
+    width: 400px;
+    height: 580px;
+    background-color: #151515;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 2px solid #333333;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.img{
+    position: absolute;
+    margin-top: 110px;
+    width: 355px;
+    height: 402px;
+
+}
+.tituloPlanet{
+    width: 450px;
+    margin-left: 25px;
+    height: 36px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #F4D62E;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.ListPlanet{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.parrafoPlanet{
+    margin-left: 25px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Oswald';
+    line-height: 760px;
+    letter-spacing: 0.02em;
+    color: white;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
