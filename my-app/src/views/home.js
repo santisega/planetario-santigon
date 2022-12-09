@@ -6,8 +6,12 @@ import Planet from '../assets/img/planetSaturn.png'
 import Rocket from '../assets/img/rocket.png'
 import Galeria from "../components/Card/galeria";
 import Reservas from "../components/Card/Reservas";
+import Header from "../components/layout/header";
+import Contacto from "../components/Card/Contacto";
 const Home= () => {
     return(
+        <>
+        <Header reservas=".reservas"/>
         <div className="container">
             <div className="textarea">
                 <h1 className="titulo2">Descubrí el planetario en Noviembre, sumate a la aventura!!!</h1>
@@ -23,9 +27,10 @@ const Home= () => {
             </div>
         <PlanetCard></PlanetCard>
         <Galeria></Galeria>
-        <Reservas></Reservas>
+        <Reservas className="reservas"></Reservas>
+        <Contacto></Contacto>
         </div>
-
+        </>
     )
 }
 

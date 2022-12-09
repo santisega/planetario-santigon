@@ -1,11 +1,11 @@
 import React from "react";
-
+import Cielo from '../../assets/img/cielo-estrellado.png'
 const Reservas = () => {
     return(
-        <div>
-            <h1>Reservas</h1>
+        <div className="reservasContainer">
+            <h1 className="tituloReserva">Reservas</h1>
             <div>
-                <img></img>
+                <img className="cielo" src={Cielo}></img>
                 <button><a target="_blank" href="https://formularios.montevideo.gub.uy/solicitud-de-reservas-para-espectaculos-del-planetario">Reservar</a></button>
             </div>
             
