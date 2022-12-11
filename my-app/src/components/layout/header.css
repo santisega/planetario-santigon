@@ -9,24 +9,31 @@
 .titulo {
     text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: 30px;
-    margin-left: 20px;
-    margin-top: 50px;
+    font-size: 35px;
+    margin: 30px 0 0 100px;
 }
 .astronauta {
     margin-top: 20px;
     height: 90px;
     padding-left: 30px;
-    margin-right: 850px;
 }
 .link {
     margin-left: 20px;
 }
-.container{
-    display: flex;
-}
-
 .containerTitulo{
     display: flex;
     margin-left: 100px;
+}
+
+.listaContainer{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 15px;
+}
+.listaContainer li a{
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }

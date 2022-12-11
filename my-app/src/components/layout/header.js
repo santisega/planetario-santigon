@@ -1,10 +1,6 @@
 import React from "react";
 import './header.css';
 import Astronaut from '../../assets/img/astronaut.png'
-import { Anchor } from "antd";
-import AnchorComponent from "../Card/Anchor";
-
-const { Link } = Anchor;
 
 const Header =  () => {
 
@@ -12,8 +8,18 @@ const Header =  () => {
         <div className="containerTitulo">
            <p className="titulo">PLANETARIO</p>
             <img className="astronauta" src={Astronaut}></img> 
-        </div> 
-            <AnchorComponent></AnchorComponent>
+        </div>
+        <ul className="listaContainer">
+            <li>
+               <a href="#Actividades">Actividades</a> 
+            </li>
+            <li>
+               <a href="#Reservas">Reservas</a> 
+            </li>
+            <li>
+               <a href="#Contacto">Contacto</a> 
+            </li>
+        </ul>
     </header>)
 }
 
