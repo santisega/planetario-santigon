@@ -22,32 +22,11 @@
 .link {
     margin-left: 20px;
 }
-.item a{
-    color: white;
-    position: right;
-    padding: 10px;
-    font-size: 24px;
-    text-decoration: none;
-}
-.items {
-    display: flex;
-    list-style-type: none;
-    color: white;
-    float: right;
-}
 .container{
     display: flex;
-}
-
-.link:focus{
-    color:white;
 }
 
 .containerTitulo{
     display: flex;
     margin-left: 100px;
-}
-
-.listContainer{
-    margin:70px auto 10px 0;
 }
