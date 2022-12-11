@@ -14,7 +14,7 @@ const Home= () => {
         <Header reservas=".reservas"/>
         <div className="container">
             <div className="textarea">
-                <h1 className="titulo2">Descubrí el planetario en Noviembre, sumate a la aventura!!!</h1>
+                    <h1 className="titulo2">Descubrí el planetario en <span style={{color:'white'}}>Noviembre</span>, sumate a la aventura!!!</h1>
                 <img src={Planet}></img>
             </div>
             <div className="rocketContainer">

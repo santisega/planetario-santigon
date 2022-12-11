@@ -15,7 +15,7 @@
     align-items: center;
     text-align: center;
     display: flex;
-    margin: 130px 120px 130px 350px;
+    margin: 130px 0px 130px 250px;
 }
 
 .parrafo{
@@ -24,9 +24,8 @@
 }
 
 .rocketContainer{
-    margin:auto auto 200px 280px;
+    margin:auto auto 200px 160px;
 }
-
 .astronautContainer{
     text-align: center;
 }
